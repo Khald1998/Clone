@@ -1,6 +1,7 @@
 # Create a module in which you can manage dependencies
 ## Run the go mod init command, giving it the path of the module your code will be in.
 "go mod init My_REST_API_TEMP"
+go mod init aws/codestar/projecttemplates/main
 
 ## To install Gorilla mux, write the command:
 "go get -u github.com/gin-gonic/gin"

@@ -1,4 +1,4 @@
-module REST
+module My_REST_API_TEMP
 
 go 1.19
 

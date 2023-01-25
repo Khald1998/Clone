@@ -1,6 +1,6 @@
 # Create a module in which you can manage dependencies
 ## Run the go mod init command, giving it the path of the module your code will be in.
-"go mod init REST"
+"go mod init My_REST_API_TEMP"
 
 ## To install Gorilla mux, write the command:
 "go get -u github.com/gin-gonic/gin"
@@ -20,6 +20,11 @@ go get github.com/joho/godotenv
 "go get -u gorm.io/gorm"
 ## To install the MySQL driver, write the command:
 "go get -u gorm.io/driver/mysql"
+
+
+## do this last
+$Env:GOOS="linux"
+go build main.go 
 
 
 ## We will have a little understanding of the Gorilla mux and GORM package.

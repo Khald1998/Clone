@@ -32,7 +32,7 @@ func main() {
 	router.PUT("/events/updata", updateEvent)
 	router.DELETE("/events/delete", deleteEvent)
 
-	router.Run("localhost:8080")
+	router.Run(":8080")
 }
 
 // getEvents responds with the list of all events as JSON.
